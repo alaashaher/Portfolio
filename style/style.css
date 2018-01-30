@@ -1,0 +1,102 @@
+body {
+	padding : 0;
+	margin : 0;
+	font-family : 'Oleo Script', cursive;
+}
+
+.container {
+	padding-left : 30px;
+	padding-right : 30px;
+	margin-right : auto;
+	margin-left : auto;
+}
+
+.row {
+	display : flex;
+}
+
+.col-6 {
+	width : 50%;
+}
+
+.text-right {
+	text-align : right;
+}
+
+.text-center {
+	text-align : center;
+}
+
+.col-12 {
+	width : 100%;
+}
+
+.row {
+	display : flex;
+}
+
+.responsive-image {
+	width : 100%;
+	display : block;
+	padding-top : 10px;
+	padding-bottom : 10px;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+.col-4 {
+	width : 33.3%;
+}
+
+.margin-right-10 {
+	margin-right : 10px;
+}
+
+h2 {
+	font-size : 200%;
+	text-align : left;
+	padding-left : 10px;
+	color : #7d97ad;
+}
+
+img {
+	max-width : 100%;
+	height : auto;
+}
+
+.logo {
+	width : 100px;
+	padding-top : 20px;
+}
+
+hr {
+	color : #7d97ad;
+}
+
+p {
+	font-size : 14px;
+	color : #333;
+	line-height : 21px;
+}
+
+@media screen and (max-width:800px) {
+	.col-4, .col-6 {
+		width : 100%;
+	}
+
+	.logo {
+		width : 100px;
+		margin-left : auto;
+		margin-right : auto;
+		display : block;
+	}
+	
+	.row {
+		display : flex;
+		flex-wrap : wrap;
+	}
+
+	h1, h4 {
+		text-align : center;
+	}
+}
